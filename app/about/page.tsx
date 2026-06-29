@@ -14,19 +14,18 @@ export default function AboutPage() {
     <Container maxWidth="sm">
       <Card sx={{ borderRadius: 4, boxShadow: 3, mt: 4 }}>
         <CardContent sx={{ p: 4, textAlign: "center" }}>
-         <Typography 
-  variant="h4" 
-  sx={{ 
-    fontWeight: "bold", // ย้ายมาไว้ใน sx
-    mb: 2              // ใช้ mb (margin-bottom) แทน gutterBottom
-  }}
->
-  About This Project
-</Typography>
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "bold", // ย้ายมาไว้ใน sx
+              mb: 2, // ใช้ mb (margin-bottom) แทน gutterBottom
+            }}
+          >
+            About This Project
+          </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            โปรเจกต์นี้เป็นการพัฒนาระบบ Pokedex เพื่อแสดงข้อมูลโปเกม่อน
-            โดยดึงข้อมูลจาก PokeAPI ผ่านเทคนิค Pagination และแสดงผลผ่าน Material
-            UI (MUI)
+            โปรเจกต์นี้เป็นการพัฒนาระบบ Pokedex เพื่อแสดงข้อมูล Pokemon
+            โดยดึงข้อมูลจาก PokeAPI, pokeapi.co
           </Typography>
 
           <Box
@@ -39,16 +38,16 @@ export default function AboutPage() {
             }}
           >
             <Typography variant="subtitle1">
-              <strong>ผู้พัฒนา:</strong> [ชื่อ-นามสกุลของคุณ]
+              <strong>Developer:</strong> [Athiwat Tangrusicharoen]
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>รายวิชา:</strong> [ชื่อวิชา / รหัสวิชา]
+              <strong>Course:</strong> [Front-end Web Programming / IN403101]
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>หลักสูตร:</strong> [ชื่อหลักสูตร / สาขาวิชา]
+              <strong>Major:</strong> [Computer Science]
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>มหาวิทยาลัย:</strong> [ชื่อมหาวิทยาลัย]
+              <strong>University:</strong> [Khon Kaen University]
             </Typography>
           </Box>
 
@@ -56,7 +55,7 @@ export default function AboutPage() {
             variant="contained"
             color="inherit"
             startIcon={<GitHubIcon />}
-            href="https://github.com/your-username/your-repo"
+            href="https://github.com/Ati411/pokemon-app"
             target="_blank"
             sx={{
               mt: 4,
