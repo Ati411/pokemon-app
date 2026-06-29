@@ -14,7 +14,10 @@ export default function AboutPage() {
     <Container maxWidth="sm">
       <Card sx={{ borderRadius: 4, boxShadow: 3, mt: 4 }}>
         <CardContent sx={{ p: 4, textAlign: "center" }}>
-          <Typography variant="h4" fontWeight="bold" gutterBottom>
+          <Typography
+            variant="h4"
+            sx={{ fontWeight: "bold", mb: 2 }} // รวม fontWeight และระยะห่างไว้ใน sx
+          >
             About This Project
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
