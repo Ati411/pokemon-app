@@ -38,16 +38,16 @@ export default function AboutPage() {
             }}
           >
             <Typography variant="subtitle1">
-              <strong>Developer:</strong> [Athiwat Tangrusicharoen]
+              <strong>Developer:</strong> Athiwat Tangrusicharoen
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>Course:</strong> [Front-end Web Programming / IN403101]
+              <strong>Course:</strong> Front-end Web Programming / IN403101
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>Major:</strong> [Computer Science]
+              <strong>Major:</strong> Computer Science
             </Typography>
             <Typography variant="subtitle1" sx={{ mt: 1 }}>
-              <strong>University:</strong> [Khon Kaen University]
+              <strong>University:</strong> Khon Kaen University
             </Typography>
           </Box>
 
